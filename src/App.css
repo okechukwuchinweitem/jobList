@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   display: flex;
+  max-width: 50%;
   text-align: center;
   justify-content: center;
 }
