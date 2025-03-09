@@ -3,29 +3,24 @@
 import React from 'react';
 import JobList from './components/JobList';
 
+
 const App: React.FC = () => {
     return (
         <div style={{
+            
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
             minHeight: '100vh',
-            backgroundColor: '#f0f4f8',
+            backgroundColor: 'rgba(80, 138, 95)',
             padding: '20px',
             boxSizing: 'border-box'
         }}>
-            <h1 style={{
-                fontSize: '2.5rem',
-                color: '#333',
-                marginBottom: '20px',
-                textAlign: 'center'
-            }}>Job Listings</h1>
+            <h1>Job Listings</h1>
 
             <div style=  {{
-                width: '100%',
-                maxWidth: '800px',
-                backgroundColor: 'white',
+                backgroundColor: '#f0f4f8',
                 borderRadius: '8px',
                 boxShadow: '0 4px 6px rgba(99, 59, 59, 0.1)',
                 padding: '20px'
