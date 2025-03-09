@@ -11,7 +11,7 @@ const App: React.FC = () => {
             justifyContent: 'center',
             alignItems: 'center',
             minHeight: '100vh',
-            backgroundColor: '#f0f4f8',
+            backgroundColor: 'rgba(80, 138, 95)',
             padding: '20px',
             boxSizing: 'border-box'
         }}>
@@ -23,9 +23,7 @@ const App: React.FC = () => {
             }}>Job Listings</h1>
 
             <div style=  {{
-                width: '100%',
-                maxWidth: '800px',
-                backgroundColor: 'white',
+                backgroundColor: '#f0f4f8',
                 borderRadius: '8px',
                 boxShadow: '0 4px 6px rgba(99, 59, 59, 0.1)',
                 padding: '20px'
@@ -37,6 +35,19 @@ const App: React.FC = () => {
 };
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
